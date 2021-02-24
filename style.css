@@ -30,3 +30,11 @@ p {
   font-size: 18px;
   color: hsl(201, 11%, 66%);
 }
+
+.hero {
+  background-image: url(./images/bg-header-mobile.png);
+}
+
+footer {
+  background-color: #f5f6f8;
+}
