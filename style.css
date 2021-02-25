@@ -15,6 +15,11 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   text-align: center;
@@ -33,6 +38,29 @@ p {
 
 .hero {
   background-image: url(./images/bg-header-mobile.png);
+}
+
+.download {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.button {
+  width: 19em;
+  border-radius: 2em;
+  padding: 1em 2em;
+  margin: 0.5em 0;
+  color: white;
+}
+
+.btn-primary {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.btn-secondary {
+  background-color: hsl(233, 100%, 69%);
 }
 
 footer {
