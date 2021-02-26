@@ -23,6 +23,7 @@ a {
 body {
   font-family: 'Bai Jamjuree', sans-serif;
   text-align: center;
+  /* padding: 0 2em; */
 }
 
 h1,
@@ -37,7 +38,12 @@ p {
 }
 
 .hero {
-  background-image: url(./images/bg-header-mobile.png);
+  background: url(./images/bg-header-mobile.png) no-repeat;
+  padding: 6em 0;
+}
+
+.hero > img {
+  margin-bottom: 4em;
 }
 
 .download {
@@ -61,6 +67,17 @@ p {
 
 .btn-secondary {
   background-color: hsl(233, 100%, 69%);
+}
+
+.used-by {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.used-by > img {
+  width: 8em;
+  margin: 2em 0;
 }
 
 footer {
