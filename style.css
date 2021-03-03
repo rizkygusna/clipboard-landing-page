@@ -15,6 +15,10 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -77,12 +81,6 @@ img {
   margin-bottom: 4em;
 }
 
-/* h1,
-p {
-  padding: 0 1em;
-  padding-bottom: 1em;
-} */
-
 .download {
   width: 100%;
   display: flex;
@@ -142,4 +140,29 @@ p {
 
 footer {
   background-color: #f5f6f8;
+  padding: 3em 0;
+}
+
+footer img {
+  width: 3em;
+  margin-bottom: 1em;
+}
+
+footer li {
+  margin: 1.5em 0;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.social-media img {
+  width: 1.5em;
+}
+
+.social-media a {
+  margin: 0 1em;
 }
