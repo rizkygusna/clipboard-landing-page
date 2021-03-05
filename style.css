@@ -188,4 +188,24 @@ footer li {
   .download a {
     margin: 0.5em;
   }
+
+  .computer {
+    width: 70%;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-content: space-around;
+  }
+  .logo-small {
+    width: 8em;
+    height: 8em;
+  }
+  footer p {
+    max-width: none;
+    margin: 0;
+  }
 }
