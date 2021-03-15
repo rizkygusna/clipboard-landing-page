@@ -205,14 +205,26 @@ footer li {
 
   .feature > p,
   .feature > h3 {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .feature-container {
+    max-width: 1200px;
     display: flex;
     align-content: center;
     justify-content: center;
-    margin: 0 5em;
+    margin: 0 auto;
+  }
+
+  .feature-container p {
+    margin: 0;
+  }
+  .feature-container h3 {
+    margin: 1em 0;
+  }
+  .feature-container > * {
+    /* even columns */
+    flex-basis: 100%;
   }
 
   .used-by {
