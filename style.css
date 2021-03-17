@@ -193,8 +193,8 @@ footer li {
     width: 14em;
   }
 
-  .computer {
-    width: 70%;
+  .computer, .devices {
+    width: 60%;
   }
 
   .feature {
