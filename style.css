@@ -189,6 +189,10 @@ footer li {
     margin: 0.5em;
   }
 
+  .button{
+    width: 14em;
+  }
+
   .computer {
     width: 70%;
   }
@@ -219,9 +223,12 @@ footer li {
   .feature-container p {
     margin: 0;
   }
+
   .feature-container h3 {
     margin: 1em 0;
   }
+
+  /* direct children */
   .feature-container > * {
     /* even columns */
     flex-basis: 100%;
