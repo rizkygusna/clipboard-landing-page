@@ -206,6 +206,28 @@ footer li {
     align-items: center;
   }
 
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .image-section {
+    overflow: hidden;
+  }
+
+  .image-section img {
+    width: 100%;
+    position: relative;
+    right: 2em;
+  }
+
+  .feature-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
   .feature img {
     margin-bottom: 2em;
   }
