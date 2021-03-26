@@ -101,8 +101,18 @@ img {
   background-color: hsl(171, 66%, 44%);
 }
 
+.btn-primary:hover,
+.btn-primary:active {
+  background-color: hsl(171, 66%, 48%);
+}
+
 .btn-secondary {
   background-color: hsl(233, 100%, 69%);
+}
+
+.btn-secondary:hover,
+.btn-secondary:active {
+  background-color: hsl(233, 100%, 73%);
 }
 
 .supercharge {
