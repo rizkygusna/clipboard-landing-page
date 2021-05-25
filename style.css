@@ -73,7 +73,7 @@ img {
 }
 
 .hero {
-  background: url(./images/bg-header-mobile.png) no-repeat;
+  background: url(./images/bg-header-mobile.png) no-repeat top/contain;
   padding-top: 6em;
 }
 
@@ -178,9 +178,9 @@ footer li {
   margin: 0 1em;
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 768px) {
   .hero {
-    background: url('./images/bg-header-desktop.png') center/cover no-repeat;
+    background: no-repeat top/contain url(./images/bg-header-desktop.png);
     /* padding: 0; */
   }
   h1,
