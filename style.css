@@ -237,6 +237,7 @@ footer li {
 
   .image-section {
     width: 50%;
+    margin: auto 0;
   }
 
   .image-section img {
