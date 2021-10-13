@@ -236,13 +236,13 @@ footer li {
   }
 
   .image-section {
-    overflow: hidden;
+    width: 50%;
   }
 
   .image-section img {
     width: 100%;
     position: relative;
-    right: 2em;
+    left: -1em;
   }
 
   .feature-wrapper {
