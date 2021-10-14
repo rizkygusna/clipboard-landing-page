@@ -306,19 +306,23 @@ footer li {
   .footer-nav {
     display: flex;
     flex-direction: row;
-    width: 60%;
+    width: 65%;
     text-align: left;
     justify-content: flex-start;
   }
 
-  .footer-nav > * {
-    margin: 0 2em;
+  .footer-nav > .col {
+    margin: 0 2rem;
   }
 
   .footer-logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
+  }
+
+  footer li {
+    margin: 1.5rem 0;
   }
 
   .logo-small {
